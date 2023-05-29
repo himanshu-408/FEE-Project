@@ -72,3 +72,13 @@ header{
     /* display: flex; */
     /* justify-content: center; */
 }
+
+
+.content div{
+    margin: 0px 5rem;
+    padding: 1.35rem 0px;
+    font-size: 1.1rem;
+}
+.content div h3{
+    padding: 0.7rem;
+}
