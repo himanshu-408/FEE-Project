@@ -147,11 +147,13 @@ body{
 	width: 15vw;
 	height: 10vh;
 	font-size: larger;
-	background-color: lightskyblue;
-	border-radius: 25%;
+	background-color: rgba(210, 227, 244, 0.732);
+	border-radius: 10%;
 }
 .option:hover{
-	background-color: lightgoldenrodyellow;
+	background-color: rgba(74, 79, 234, 0.039);
+    border:1px solid rgba(245, 246, 250, 0.186);
+    color:#F8F8F8;
 }
 .navigation{
 	width: 80vw;
@@ -170,12 +172,21 @@ body{
 	font-size: larger;
 }
 .evaluate{
-
-	background-color: lightsalmon;
+    color:#F8F8F8;
+	background-color: rgba(197, 206, 235, 0.203);
+    border:1px solid rgba(248, 248, 248, 0.742);
+    border-radius: 3%;
 }
 .next{
-	color: white;
-	background-color: #BF3325;
+	color:#F8F8F8;
+	background-color: rgba(197, 206, 235, 0.203);
+    border:1px solid rgba(248, 248, 248, 0.742);
+    border-radius: 3%;
+}
+.evaluate:hover,.next:hover{
+    cursor: pointer;
+    background-color: #fffdfdb0;
+    color:black;
 }
 
 .img1{

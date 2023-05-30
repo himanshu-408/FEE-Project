@@ -143,37 +143,53 @@ var selected = "";
 
 // Show selection for op1
 op1.addEventListener("click", () => {
-    op1.style.backgroundColor = "lightgoldenrodyellow";
-    op2.style.backgroundColor = "lightskyblue";
-    op3.style.backgroundColor = "lightskyblue";
-    op4.style.backgroundColor = "lightskyblue";
+    op1.style.backgroundColor = "rgba(74, 79, 234, 0.039)";
+    op1.style.color = "white";
+    op2.style.backgroundColor = "rgba(210, 227, 244, 0.732)";
+    op2.style.color = "black";
+    op3.style.backgroundColor = "rgba(210, 227, 244, 0.732)";
+    op3.style.color = "black";
+    op4.style.backgroundColor = "rgba(210, 227, 244, 0.732)";
+    op4.style.color = "black";
     selected = op1.value;
 })
 
 // Show selection for op2
 op2.addEventListener("click", () => {
-    op1.style.backgroundColor = "lightskyblue";
-    op2.style.backgroundColor = "lightgoldenrodyellow";
-    op3.style.backgroundColor = "lightskyblue";
-    op4.style.backgroundColor = "lightskyblue";
+    op1.style.backgroundColor = "rgba(210, 227, 244, 0.732)";
+    op1.style.color = "black";
+    op2.style.backgroundColor = "rgba(74, 79, 234, 0.039)";
+    op2.style.color = "white";
+    op3.style.backgroundColor = "rgba(210, 227, 244, 0.732)";
+    op3.style.color = "black";
+    op4.style.backgroundColor = "rgba(210, 227, 244, 0.732)";
+    op4.style.color = "black";
     selected = op2.value;
 })
 
 // Show selection for op3
 op3.addEventListener("click", () => {
-    op1.style.backgroundColor = "lightskyblue";
-    op2.style.backgroundColor = "lightskyblue";
-    op3.style.backgroundColor = "lightgoldenrodyellow";
-    op4.style.backgroundColor = "lightskyblue";
+    op1.style.backgroundColor = "rgba(210, 227, 244, 0.732)";
+    op1.style.color = "black";
+    op2.style.backgroundColor = "rgba(210, 227, 244, 0.732)";
+    op2.style.color = "black";
+    op3.style.backgroundColor = "rgba(74, 79, 234, 0.039)";
+    op3.style.color = "whitesmoke";
+    op4.style.backgroundColor = "rgba(210, 227, 244, 0.732)";
+    op4.style.color = "black";
     selected = op3.value;
 })
 
 // Show selection for op4
 op4.addEventListener("click", () => {
-    op1.style.backgroundColor = "lightskyblue";
-    op2.style.backgroundColor = "lightskyblue";
-    op3.style.backgroundColor = "lightskyblue";
-    op4.style.backgroundColor = "lightgoldenrodyellow";
+    op1.style.backgroundColor = "rgba(210, 227, 244, 0.732)";
+    op1.style.color = "black";
+    op2.style.backgroundColor = "rgba(210, 227, 244, 0.732)";
+    op2.style.color = "black";
+    op3.style.backgroundColor = "rgba(210, 227, 244, 0.732)";
+    op3.style.color = "black";
+    op4.style.backgroundColor = "rgba(74, 79, 234, 0.039)";
+    op4.style.color = "white";
     selected = op4.value;
 })
 
