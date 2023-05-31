@@ -138,8 +138,6 @@ body{
 	padding: 5px;
 	width: 80vw;
 	height: 20vh;
-	
-	
 }
 .option{
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -216,4 +214,22 @@ body{
     top: 3000px;
     overflow: hidden;
 
+}
+
+
+
+@media(max-width:1230px){
+    .option-container{
+        display: flex;
+        flex-direction: column;
+        gap:1.5vh;
+        margin:5vh 0px
+    }
+    .option-container button{
+        width: 70vw;
+        border-radius: 5px;
+    }
+    .navigation{
+        margin:7vh 0px;
+    }
 }
